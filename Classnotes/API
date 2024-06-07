@@ -1,0 +1,10 @@
+Response code we check here : postman tool
+
+What is REST?
+REST stands for Representational State Transfer.
+It's a way to design APIs (Application Programming Interfaces) that allows different systems to communicate with each other over the internet.
+APIs are like messengers that deliver requests to the provider (server) and then deliver the response back to the requester (client).
+
+
+CRUD: create , read, update , delete.
+Rest API examples?

@@ -25,18 +25,24 @@ public class excelpractice {
                 throw new IllegalArgumentException("The specified file is not an Excel file");
             }
 			
+			
 			Sheet sheet = workbook.getSheet("Sheet1");
 			Row row = sheet.getRow(1);
+			
 			
 			Cell c1 = row.getCell(0);
 			Cell c2 = row.getCell(1);
 			Cell c3 = row.getCell(2);
 			Cell c4 = row.getCell(3);
+			
+			
 			//Get values
 			String fname = c1.getStringCellValue();
 			String mname = c2.getStringCellValue();
 			String lname = c3.getStringCellValue();
 			int Eid = (int)c4.getNumericCellValue();
+			
+			
 			System.out.println(fname  + ":" + mname + " : " + lname + " : " + Eid);
 			
 			
@@ -48,7 +54,6 @@ public class excelpractice {
 			workbook.write(output);
 			output.close();
 			workbook.close();
-				
 			
 		}
 		
