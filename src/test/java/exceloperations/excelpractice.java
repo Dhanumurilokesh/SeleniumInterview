@@ -34,14 +34,12 @@ public class excelpractice {
 			Cell c2 = row.getCell(1);
 			Cell c3 = row.getCell(2);
 			Cell c4 = row.getCell(3);
-			
-			
+
 			//Get values
 			String fname = c1.getStringCellValue();
 			String mname = c2.getStringCellValue();
 			String lname = c3.getStringCellValue();
 			int Eid = (int)c4.getNumericCellValue();
-			
 			
 			System.out.println(fname  + ":" + mname + " : " + lname + " : " + Eid);
 			
@@ -49,6 +47,7 @@ public class excelpractice {
 			for(int i=1; i <= sheet.getLastRowNum(); i++) {
 				sheet.getRow(i).createCell(4).setCellValue("pass");	
 			}
+			
 			file.close();
 			FileOutputStream output = new FileOutputStream("/Users/harish/Downloads/Booknew.xlsx");
 			workbook.write(output);
