@@ -21,6 +21,7 @@ public class login {
 	Properties property = new Properties();
 	
 	
+	
 	@BeforeTest
 	public void setup() throws FileNotFoundException, IOException {
 		//Store property file into java file class
