@@ -1,11 +1,19 @@
-Q1: role of tester?
+Q1: Role of tester?
 Understanding the testing requirements
 Planning the tests by defining the strategy
 Designing the test cases & preparing the test data
 Creating Test Suite.
 Executing the test and submitting the status as pass /fail.
 Bug Reporting & Coordinating with different departments to fix the bugs
-Retest the software post fixing.
+Carry out regression testing every time when changes are made to the code
+to fix defects.
 In the end, submit the testing report, giving a green signal to the software.
 
-Q2: 
+Q2: System Testing?
+1. Validating Functional Requirements and Non Functional Requirements of
+the System
+2. System Testing carried out by the Testers in Customer business point of
+view.
+3. Customer Business Requirements are inputs to carryout System Testing. 
+
+Q3: 
